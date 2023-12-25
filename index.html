@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartão de Natal</title>
+    <link rel="stylesheet" href="_css/style.css">
+</head>
+<body>
+    <div class="christmas-card">
+        <input id='open' type='checkbox'>
+        <label class="open" for="open"></label>
+
+        <!--Parte externa do cartão-->
+        <div class="card-front">
+            <div class="card">
+                <!-- Imagem decorativa no topo do cartão -->
+                <div class="icon-topo">
+                    <img src="imagens/decoracao.svg">
+                </div>
+                <div class="click-to-open">Clique para abrir</div>
+                <!-- Imagens de árvore e casa de Natal -->
+                <div class="icons">
+                    <img src="imagens/arvore.svg">
+                    <img src="imagens/casa.svg">
+                </div>
+            </div>
+        </div>
+
+        <!--Parte interna do cartão-->
+        <div class="card-inside">
+            <!-- Texto de Feliz Natal animado -->
+            <div class="wishes">Feliz Natal!</div>
+            <div class="subtext">Olá a todos, <br> <br>Meu nome é Alison e, neste momento especial, desejo a todos vocês um Feliz Natal! Que o espírito natalino traga alegria e afeto aos seus dias.</div>
+        </div>
+    </div>
+
+    <!-- Importação do GSAP e do script JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="_javascript/script.js"></script>
+    
+    <!--Rodapé-->
+    <footer>
+        <p>&copy; AlisonDev</p>
+    </footer>
+</body>
+</html>
